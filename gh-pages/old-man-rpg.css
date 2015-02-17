@@ -10,3 +10,24 @@ body {
   padding: 20px;
   background-color: #fff;
 }
+.modal a {
+  text-decoration: none;
+  color: #444;
+}
+
+.next {
+  color: #000;
+  animation: next 0.85s step-start 0s infinite;
+  -moz-animation: next 0.85s step-start 0s infinite;
+  -webkit-animation: next 0.85s step-start 0s infinite;
+  vertical-align: -2px;
+}
+@-webkit-keyframes next {
+  50% { visibility: hidden; }
+}
+@-moz-keyframes next {
+  50% { visibility: hidden; }
+}
+@keyframes next {
+  50% { visibility: hidden; }
+}
