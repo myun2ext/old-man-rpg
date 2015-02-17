@@ -15,12 +15,21 @@ body {
   color: #444;
 }
 
+.messages p {
+  display: none;
+}
+
+.messages p.active {
+  display: block;
+}
+
 .next {
   color: #000;
   animation: next 0.85s step-start 0s infinite;
   -moz-animation: next 0.85s step-start 0s infinite;
   -webkit-animation: next 0.85s step-start 0s infinite;
   vertical-align: -2px;
+  content: "&#9660;";
 }
 @-webkit-keyframes next {
   50% { visibility: hidden; }
