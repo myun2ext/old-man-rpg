@@ -1,0 +1,12 @@
+body {
+  font-family: Helvetica, Arial, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+  background-color: #ddd;
+  color: #444;
+}
+
+.modal {
+  border-radius: 10px;
+  margin: 6px;
+  padding: 20px;
+  background-color: #fff;
+}
